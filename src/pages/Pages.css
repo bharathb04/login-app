@@ -1,0 +1,127 @@
+.home {
+
+    align-items: center;
+    background-color: rgba(107, 163, 177, 0.2);
+    
+
+    display: flex;
+    padding: 25px 25px 25px 25px;
+    height: 350px;
+    position: absolute;
+    top: 250px;
+    right: 580Px;
+  
+  }
+
+  .Welcome {
+    opacity: 1;
+    color: rgb(184, 214, 224);
+  }
+
+  .Notfound {
+    opacity: 1;
+    color: rgb(184, 214, 224);
+  }
+
+
+  .form-label { 
+
+    color: rgb(20, 43, 141);
+    font-weight: 800;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(156, 59, 185, 0.3);
+    backdrop-filter: blur(10px);
+    filter: brightness(1.35);
+    
+  }
+
+  .form-control {
+    
+    color: rgb(20, 43, 141) !important;  
+    filter: brightness(1.35);
+    border-color: rgba(199, 22, 175, 0.6);
+    font-weight: 600 !important;
+    opacity: .85 !important;
+   }
+
+   .form-check-label {
+    color: rgb(20, 43, 141) !important;
+    filter: brightness(1.35);
+    font-weight: 500 !important;
+    backdrop-filter: blur(20px) !important;
+
+  }
+
+  .form-check-input {
+    outline: 1px solid #c643e0;
+  }
+
+  .btn-primary {
+
+    background-color: rgba(30, 104, 122, 0.6);
+    transition: opacity 600ms ease-in-out;
+  }
+
+  .btn-primary:hover {
+    background-color: rgba(30, 104, 122, 0.75);
+  }
+
+  .btn-primary.focus,
+.btn-primary:focus {
+	box-shadow: 0 0 0 .2rem rgba(255, 38, 208, 0.5)
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+	color: #fff;
+  background-color: rgba(30, 104, 122, 0.95);
+  
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  opacity: 0;
+	color: #fff;
+	background-color: #92b1d1;
+  border-color: #ff00ea;
+}
+
+.Submit {
+  display: flex;
+}
+
+.alert {
+  position: absolute;
+  height: 130px;
+  width: 300px;
+  top: 25px;
+  left: 270Px;  
+
+}
+
+.alert-danger {
+  color: #d3e4e9;
+
+	background-color: rgba(30, 104, 122, 0.55);
+  border-color: rgba(111, 187, 206, 0.55);
+  text-shadow: 0 0 2px rgb(228, 59, 191), 0 0 4px rgb(138, 21, 118);
+}
+
+/* CSS Transisiton Section */
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear.fade-appear-active{
+  opacity: 0.7;
+  transition: opacity 600ms ease-in-out;
+
+}
+
+.fade.fade-enter-done{
+  opacity: 1; 
+
+}
