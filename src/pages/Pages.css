@@ -45,6 +45,15 @@
     opacity: .85 !important;
    }
 
+   .form-control::selection {
+
+    color: #020e11 !important;
+    background-color:  rgb(191, 132, 206);
+
+   }
+
+
+
    .form-check-label {
     color: rgb(20, 43, 141) !important;
     filter: brightness(1.35);

@@ -3,6 +3,8 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
 import Spinner from 'react-bootstrap/Spinner';
+import Tabs from 'react-bootstrap/Tabs';
+import Tab from 'react-bootstrap/Tab';
 import {Redirect} from 'react-router-dom';
 
 import '../pages/Pages.css';
@@ -76,12 +78,19 @@ class Login extends Component {
 
             return <Redirect to={{pathname:'/Welcome'}}/>
           } 
+    /*
 
+                        <Tabs defaultActiveKey="home" transition={false} id="noanim-tab-example">
+                            <Tab eventKey="home" title="Home">  
+                            </Tab>
+                        </Tabs>
+
+
+    */
         return (
             <div className="Login">
                 <Form>  
-
-
+                        
                         <Form.Group controlId="formBasicName" >
                             <Form.Label>User Name</Form.Label>
                             <Form.Control type="input" value={this.state.username} placeholder="User Name" name="username" 
