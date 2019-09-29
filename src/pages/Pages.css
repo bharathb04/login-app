@@ -1,46 +1,69 @@
 .home {
 
     align-items: center;
-    background-color: rgba(107, 163, 177, 0.2);
+    background-color: rgba(238, 125, 32, 0.5);
     
-
     display: flex;
     padding: 25px 25px 25px 25px;
     height: 350px;
     position: absolute;
-    top: 250px;
-    right: 580Px;
+    top: 120px;
+    right: 100Px;
   
   }
 
   .Welcome {
     opacity: 1;
-    color: rgb(184, 214, 224);
+    color:  rgb(20, 43, 141);
   }
 
   .Notfound {
     opacity: 1;
-    color: rgb(184, 214, 224);
+    color:  rgb(20, 43, 141);
+  }
+
+  .LoginBadge {
+
+    position: absolute;
+    top: 140px;
+    right: 295Px;
+
   }
 
 
   .form-label { 
 
-    color: rgb(20, 43, 141);
+    color: rgb(15, 61, 88);
     font-weight: 800;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
-    background: rgba(156, 59, 185, 0.3);
-    backdrop-filter: blur(10px);
+    
+   
     filter: brightness(1.35);
     
   }
+
+  .navbar-brand:focus,
+.navbar-brand:hover {
+  text-emphasis-color: white;
+}
+
+/*
+background: rgba(156, 59, 185, 0.3);
+ backdrop-filter: blur(10px);
+
+
+*/
+
+
+
+
 
   .form-control {
     
     color: rgb(20, 43, 141) !important;  
     filter: brightness(1.35);
-    border-color: rgba(199, 22, 175, 0.6);
+    border-color: rgba(212, 103, 14, 0.6);
     font-weight: 600 !important;
     opacity: .85 !important;
    }
@@ -48,7 +71,7 @@
    .form-control::selection {
 
     color: #020e11 !important;
-    background-color:  rgb(191, 132, 206);
+    background-color:  rgb(230, 103, 30);
 
    }
 
@@ -68,17 +91,19 @@
 
   .btn-primary {
 
-    background-color: rgba(30, 104, 122, 0.6);
+    background-color: rgb(230, 103, 30);
     transition: opacity 600ms ease-in-out;
+    border-color: #da590f;
   }
 
   .btn-primary:hover {
-    background-color: rgba(30, 104, 122, 0.75);
+    background-color: rgba(30, 104, 122, 0.75); 
   }
 
   .btn-primary.focus,
 .btn-primary:focus {
-	box-shadow: 0 0 0 .2rem rgba(255, 38, 208, 0.5)
+  box-shadow: 0 0 0 .2rem rgba(194, 66, 16, 0.5);
+  border-color: #da590f;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
@@ -94,7 +119,7 @@
   opacity: 0;
 	color: #fff;
 	background-color: #92b1d1;
-  border-color: #ff00ea;
+  border-color: #da590f;
 }
 
 .Submit {
@@ -106,7 +131,7 @@
   height: 130px;
   width: 300px;
   top: 25px;
-  left: 270Px;  
+  right: 270Px;  
 
 }
 
@@ -115,7 +140,7 @@
 
 	background-color: rgba(30, 104, 122, 0.55);
   border-color: rgba(111, 187, 206, 0.55);
-  text-shadow: 0 0 2px rgb(228, 59, 191), 0 0 4px rgb(138, 21, 118);
+  text-shadow: 0 0 2px rgb(196, 91, 21), 0 0 4px rgb(196, 91, 21);
 }
 
 /* CSS Transisiton Section */
@@ -134,3 +159,4 @@
   opacity: 1; 
 
 }
+

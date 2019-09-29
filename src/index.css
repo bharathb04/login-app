@@ -1,6 +1,6 @@
 body {
   
-  background-image: url("/brain.jpg");	
+  background-image: url("/Bg.jpg");	
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -16,3 +16,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace; 
 }
+
+/*
+background-image: url("/brain.jpg");
+
+
+*/
