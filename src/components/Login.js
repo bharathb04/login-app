@@ -23,7 +23,7 @@ class Login extends Component {
             isLoading: false,
         } 
 
-        localStorage.clear();
+        window.sessionStorage.clear();
 
         this.handleChange = this.handleChange.bind(this);
         this.handleClick = this.handleClick.bind(this);
@@ -72,8 +72,8 @@ class Login extends Component {
     //    console.log('Invalid--', invalid(this.state.username,this.state.password),'flags',userValid);
 
         if ((this.state.toWelcome === true) && (this.state.isAuthenticated === true)){
-            localStorage.setItem('token',this.state.isAuthenticated); 
-            localStorage.setItem('username',this.state.username);
+            window.sessionStorage.setItem('token',this.state.isAuthenticated); 
+            window.sessionStorage.setItem('username',this.state.username);
 
             return <Redirect to={{pathname:'/Welcome'}}/>
           } 

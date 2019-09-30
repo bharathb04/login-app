@@ -9,7 +9,7 @@ export class Welcome extends Component {
         var username = this.props.username.toLowerCase();
         username = username.charAt(0).toUpperCase() + username.slice(1);
 
-        console.log(localStorage.getItem('username'));
+        console.log(window.sessionStorage.getItem('username'));
 
         return (
             <div className="Welcome">
